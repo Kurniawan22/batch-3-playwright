@@ -1,14 +1,14 @@
 // @ts-check
 import { test, expect } from '@playwright/test';
 
-test('testcase pertama', async ({ page }) => {
+test('testcase satu', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/Playwright/);
 });
 
-test('testcase kedua', async ({ page }) => {
+test('testcase dua', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
   // Click the get started link.
